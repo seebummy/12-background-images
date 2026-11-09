@@ -1,0 +1,172 @@
+/* ---------- Colors ---------- */
+:root {
+    --orange: #f4934a;
+    --blue: #1d93ba;
+    --red-orange: #e8553e;
+    --cream: #fdf9ee;
+    --tan: #ecd9a8;
+    --teal: rgb(205, 244, 231);
+    --text: #333333;
+    --white: #ffffff;
+}
+
+/* ---------- Page ---------- */
+/* Tileable pattern: save it as images/pattern.png */
+body {
+    margin: 0;
+    background-color: var(--teal);
+    background-image: url("images/pattern.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    line-height: 38px;
+    color: var(--text);
+    padding-bottom: 150px;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+    background-color: var(--orange);
+    border-bottom: 5px solid var(--blue);
+    padding: 40px 0 20px 0;
+}
+
+.site-title {
+    width: 775px;
+    margin: 0 auto;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 70px;
+    color: var(--white);
+}
+
+.site-nav {
+    width: 775px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 0 18px;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* ---------- Hero banner ---------- */
+/* Hero photo: save it as images/hero.jpg */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 590px;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid var(--blue);
+}
+
+.hero-title {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+/* ---------- Content column ---------- */
+.content-column {
+    width: 825px;
+    margin: 50px auto 0 auto;
+}
+
+.card {
+    background-color: var(--cream);
+    padding: 50px;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--blue);
+}
+
+.card-subtitle {
+    margin: 0 0 30px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--tan);
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--red-orange);
+}
+
+.tag-row {
+    display: flex;
+    gap: 8px;
+    margin: 0 0 20px 0;
+}
+
+.card-text {
+    margin: 0 0 20px 0;
+}
+
+.code-tag {
+    padding: 2px 8px;
+    background-color: var(--cream);
+    border: 1px solid var(--tan);
+    border-radius: 3px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 18px;
+    color: var(--red-orange);
+}
+
+.card-link {
+    color: var(--blue);
+    text-decoration: underline dotted;
+}
+
+/* ---------- "That's a wrap" box ---------- */
+.wrap-up {
+    margin-top: 37px;
+    padding: 40px 50px;
+    background-color: var(--blue);
+    border-left: 7px solid var(--orange);
+    color: var(--white);
+}
+
+.wrap-up-title {
+    margin: 0 0 10px 0;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 50px;
+}
+
+.wrap-up-text {
+    margin: 0;
+}
